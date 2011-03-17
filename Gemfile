@@ -8,4 +8,5 @@ gem 'devise'
 group :development, :test do
   gem 'webrat'  
 	gem 'rspec'
+  gem 'rspec-rails'
 end
