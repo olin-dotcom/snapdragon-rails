@@ -1,4 +1,16 @@
 SnapdragonRails::Application.routes.draw do
+  get "page/home"
+
+  get "page/about"
+
+  resources :events
+
+  resources :bursts
+
+  resources :snaps
+
+  resources :users
+
   devise_for :credentials
 
   # The priority is based upon order of creation:
